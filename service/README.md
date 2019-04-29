@@ -21,6 +21,7 @@ Para facilitar o desenvolvimento foi utilizado o SQLite como opção de banco.
 As classes onde se concentram as lógicas de validação são justamente os modelos, que são:
 - `app/models/client.rb` definindo o cliente a ser cadastrado
 - `app/models/subscription.rb` definindo uma assinatura de seguro para o cliente
+
 As validações de email e CPF utilizam gemas externas, `cpf_cnpj` e `validators` para simplificar o desenvolvimento.
 As validações de IMEI são feitas na mão, e tentam simplificar ao máximo a entrada dos IMEIs, já que apesar
 do formato deles serem bem-definidos, o formato exibido pelas interfaces nos celulares não é e pode variar
