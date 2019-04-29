@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Hugo da Silva
+  cpf: 351.116.040-57
+  email: hugo.silva@gmail.com
+
+two:
+  name: Laura Castelo
+  cpf: 704.543.630-01
+  email: laura2299@hotmail.com

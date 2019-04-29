@@ -1,0 +1,5 @@
+<h1>New Subscription</h1>
+
+<%= render 'form', subscription: @subscription, url: client_subscriptions_path(@client_id), method: :post %>
+
+<%= link_to 'Back', client_subscriptions_path(@client_id) %>

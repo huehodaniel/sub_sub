@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone_model: MyString
+  imei: MyString
+  full_price: 1.5
+  payments: 1
+
+two:
+  phone_model: MyString
+  imei: MyString
+  full_price: 1.5
+  payments: 1

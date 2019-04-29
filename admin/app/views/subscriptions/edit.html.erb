@@ -1,0 +1,6 @@
+<h1>Editing Subscription</h1>
+
+<%= render 'form', subscription: @subscription, url: subscription_path(@subscription), method: :put %>
+
+<%= link_to 'Show', subscription_path(@subscription) %>
+<%= link_to 'Back', client_subscriptions_path(@subscription.client_id) %>

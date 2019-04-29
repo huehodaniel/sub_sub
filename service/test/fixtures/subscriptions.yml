@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client: one
+  imei: 545224863866610
+  phone_model: Samsung S9 Plus
+  full_price: 399.90
+  payments: 12
+
+two:
+  client: two
+  imei: 352430624834761
+  phone_model: Motorola G6 Plus
+  full_price: 299.90
+  payments: 6

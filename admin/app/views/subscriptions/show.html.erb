@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Phone model:</strong>
+  <%= @subscription.phone_model %>
+</p>
+
+<p>
+  <strong>Imei:</strong>
+  <%= @subscription.imei %>
+</p>
+
+<p>
+  <strong>Full price:</strong>
+  <%= @subscription.full_price %>
+</p>
+
+<p>
+  <strong>Payments:</strong>
+  <%= @subscription.payments %>
+</p>
+
+<%= link_to 'Edit', edit_subscription_path(@subscription) %> |
+<%= link_to 'Back', client_subscriptions_path(@subscription.client_id) %>
